@@ -12,10 +12,9 @@
 
 *MENTOR*: NEELA SANTOSH
 
+ Data Pipeline Development – ETL Process on Wine Quality Data
 
-Task 1: Data Pipeline Development – ETL Process on Wine Quality Data
-
- For this task, I selected the Wine Quality Dataset, which contains physicochemical test results and quality ratings of red and white wine samples. The objective of this task was to automate the ETL (Extract, Transform, Load) process using Python tools like pandas and scikit-learn, making the dataset ready for further analysis or machine learning.
+ I Have selected the Wine Quality Dataset, which contains physicochemical test results and quality ratings of red and white wine samples. The objective of this task was to automate the ETL (Extract, Transform, Load) process using Python tools like pandas and scikit-learn, making the dataset ready for further analysis or machine learning.
 
 Project Overview
 
@@ -27,7 +26,6 @@ Transform – Cleaning, preprocessing, and modifying data.
 
 Load – Saving the cleaned and transformed data for downstream tasks.
 
-
 Extract Phase
 
 In the extraction phase, I used the pandas library to load the Wine Quality Dataset from a CSV file. The dataset includes various features such as fixed acidity, volatile acidity, citric acid, residual sugar, pH, alcohol content, and a target variable: quality (scored from 0 to 10). This phase involved:
@@ -35,7 +33,6 @@ In the extraction phase, I used the pandas library to load the Wine Quality Data
 Reading the dataset using pd.read_csv().
 
 Performing an initial check for missing values, data types, and basic statistics using .info() and .describe() methods.
-
 
 Transform Phase
 
@@ -51,7 +48,6 @@ Data Encoding: Although the Wine dataset mostly contains numerical data, I prepa
 
 Feature Selection: Checked feature correlation to reduce redundancy, enhance performance, and simplify the model structure for later stages.
 
-
 Load Phase
 
 After transformation, the cleaned and processed dataset was saved as a new CSV file using to_csv(). This phase makes the dataset readily available for use in machine learning models or further data analysis.
@@ -61,7 +57,6 @@ Tools and Technologies Used
 Language: Python
 
 Libraries: pandas, numpy, scikit-learn
-
 
 Outcome
 
